@@ -11,24 +11,18 @@ Stubbed: This branch will have a few base scenarios for addition and subtraction
 
 
 
-Set up:
+###Set up:
 
 In order to run this codebase, the following must be installed:
 
 Java:
-
 	This project was built using Java 13.0.2.
-
 	Confirm that Java is correctly installed by running "java --version"
-
 	Ensure that your JAVA_HOME is.
 
 Maven:
-
 	This project was built using Apache Maven 3.6.3.
-
 	Confirm that Maven is installed by running "mvn -version".
-
 	Add the Maven bin directory to your path so you can run the "mvn" command.
 
 Red Hat Developer Studio (or some Java IDE)
