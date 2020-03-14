@@ -49,19 +49,9 @@ public class CalculatorSteps {
 		result = calculatorHandler.doDivision(operand1, operand2);
 	}
 
-	@Then("^I expect the result \"([^\"]*)\"$")
-	public void I_expect_the_result(String expectedResult) throws Throwable {
-		assertTrue(result == Float.parseFloat(expectedResult));
-	}
-
-	@Then("^I expect the result (\\d+)$")
-	public void I_expect_the_result(int expectedResult) throws Throwable {
-		assertTrue(expectedResult == result);
-	}
-
-	@Then("^I expect the result -(\\d+)$")
-	public void I_expect_the_result_(int expectedResult) throws Throwable {
-		expectedResult = expectedResult * -1;
+	@Then("I expect the result {double}")
+	public void i_expect_the_result(Double expectedResult) {
+		// Write code here that turns the phrase above into concrete actions
 		assertTrue(expectedResult == result);
 	}
 
