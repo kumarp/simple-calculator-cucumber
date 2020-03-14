@@ -38,3 +38,4 @@ If you are in the Stubbed branch: You will have build failures. Resolve these fa
 
 
 For the purposes of learning BDD, start by checking out the Stubbed branch.
+** If you will be attneding this as a workshop, we will walk through how to fix the Stubbed branch.**
