@@ -16,6 +16,7 @@ Maven:
 	Confirm that Maven is installed by running "mvn -version".
 	Add the Maven bin directory to your path so you can run the "mvn" command.
 Red Hat Developer Studio (or some Java IDE)
+	Optional Step: Install the Eclipse plug in for Cucumber: https://cucumber.github.io/cucumber-eclipse/
 
 To confirm that the project builds correctly, navigate to the project and run "mvn install".
 If you are in the Solution branch: This should display "Build Success" as the final status and show that a total of 24 tests ran, with 0 failures.
