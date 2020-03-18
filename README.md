@@ -26,6 +26,7 @@ Maven:
 	Add the Maven bin directory to your path so you can run the "mvn" command.
 
 Red Hat Developer Studio (or some Java IDE)
+	Optional Step: Install the Cucumber Eclipse Plugin: https://cucumber.github.io/cucumber-eclipse/
 
 
 
